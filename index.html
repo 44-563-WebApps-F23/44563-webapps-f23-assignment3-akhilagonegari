@@ -65,11 +65,9 @@
         <a href="https://stackoverflow.com/questions/4677586/what-is-the-purpose-of-the-robots-meta-tag-in-html">
             Link to code snippet of HTML in stack overflow </a>
         <pre>
-            <a href="http://example.com">
-                <div>
-                    anything
-                </div>
-            </a>
+            &lt;?php if (is_single()) { ?&gt;
+                &lt;meta name="robots" content="noindex, nofollow"&gt;
+              &lt;?php } ?&gt;
         </pre>
         <a href="https://css-tricks.com/snippets/html/meta-tags-for-instructing-search-bots/">Link to code snippet</a>
     </body>
